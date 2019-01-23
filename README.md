@@ -36,12 +36,12 @@ void loop() {
   distance1 = (duration1/2) / 29.1;
 
    
-    Serial.print ( "Sensor1  ");
-    Serial.print ( distances1);
-    Serial.println("cm");
+   Serial.print ( "Sensor1  ");
+   Serial.print ( distances1);
+   Serial.println("cm");
 
-    if(distance1 < 50)
-     { 
+   if(distance1 < 50)
+    { 
         digitalWrite(ultrabuzzer, HIGH);
         delay(100);
      }
@@ -61,11 +61,11 @@ long durations2, distances2;
   distances2= (durations2/2) / 29.1;
 
    
-    Serial.print("Sensor2  ");
+   Serial.print("Sensor2  ");
     Serial.print(distances2);
     Serial.println("cm");
   
-    if(distances2 < 40)
+   if(distances2 < 40)
      { 
         digitalWrite(ultrabuzzer, HIGH);
         delay(1000);
