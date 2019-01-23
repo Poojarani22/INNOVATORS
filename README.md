@@ -27,10 +27,10 @@ void loop() {
   digitalWrite(ultrabuzzer,LOW);
   
   
-  digitalWrite(ultra01trig, LOW);  // Added this line
-  delayMicroseconds(2); // Added this line
+  digitalWrite(ultra01trig, LOW); 
+  delayMicroseconds(2); 
   digitalWrite(ultra01trig, HIGH);
-  delayMicroseconds(10); // Added this line
+  delayMicroseconds(10); 
   digitalWrite(ultra01trig, LOW);
   duration1 = pulseIn(ultra01echo, HIGH);
   distance1 = (duration1/2) / 29.1;
@@ -52,10 +52,10 @@ void loop() {
   
   
 long durations2, distances2;
-  digitalWrite(ultra02trig, LOW);  // Added this line
-  delayMicroseconds(2); // Added this line
+  digitalWrite(ultra02trig, LOW); 
+  delayMicroseconds(2); 
   digitalWrite(ultra02trig, HIGH);
-  delayMicroseconds(10); // Added this line
+  delayMicroseconds(10); 
   digitalWrite(ultra02trig, LOW);
   durations2 = pulseIn(ultra02echo, HIGH);
   distances2= (durations2/2) / 29.1;
