@@ -1,0 +1,1 @@
+The code1.docx shows the code we have written for the ultrasonic sensors to detect any object encountered on the path, a buzzer attached with the arduino board along with the two ultrasonic sensors to give a sound alert to the visually impaired.
