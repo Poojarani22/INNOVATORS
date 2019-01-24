@@ -17,6 +17,7 @@ OBJECTIVES
 
 
 TECHNOLOGY STACK
+
 1.	HARDWARE
 •	Arduino Uno
 •	Node MCU
@@ -31,8 +32,12 @@ TECHNOLOGY STACK
 •	IFTTT
 
 
+
+
+
 USE CASE
 
+![capture](https://user-images.githubusercontent.com/43980699/51647925-aa134d00-1fa4-11e9-9274-a176d77da39a.PNG)
 
 
 
